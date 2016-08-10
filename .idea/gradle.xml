@@ -10,7 +10,9 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/D01_HelloWorld" />
-            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/D02_ActivityJumpTest" />
+            <option value="$PROJECT_DIR$/D02_IntentTest" />
+            <option value="$PROJECT_DIR$/D02_LinearLayoutTest" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

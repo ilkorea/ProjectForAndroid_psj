@@ -1,1 +1,1 @@
-include ':app', ':D01_HelloWorld'
+include ':D01_HelloWorld', ':D02_IntentTest', ':D02_ActivityJumpTest', ':D02_LinearLayoutTest'

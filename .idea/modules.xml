@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/D01_HelloWorld/D01_HelloWorld.iml" filepath="$PROJECT_DIR$/D01_HelloWorld/D01_HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D02_ActivityJumpTest/D02_ActivityJumpTest.iml" filepath="$PROJECT_DIR$/D02_ActivityJumpTest/D02_ActivityJumpTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D02_IntentTest/D02_IntentTest.iml" filepath="$PROJECT_DIR$/D02_IntentTest/D02_IntentTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D02_LinearLayoutTest/D02_LinearLayoutTest.iml" filepath="$PROJECT_DIR$/D02_LinearLayoutTest/D02_LinearLayoutTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Project_for_Android_02.iml" filepath="$PROJECT_DIR$/Project_for_Android_02.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
 </project>
