@@ -13,6 +13,11 @@
             <option value="$PROJECT_DIR$/D02_ActivityJumpTest" />
             <option value="$PROJECT_DIR$/D02_IntentTest" />
             <option value="$PROJECT_DIR$/D02_LinearLayoutTest" />
+            <option value="$PROJECT_DIR$/D03_ConstraintLayoutTest" />
+            <option value="$PROJECT_DIR$/D03_LinearLayoutTest_weight" />
+            <option value="$PROJECT_DIR$/D03_PaddingMarginTest" />
+            <option value="$PROJECT_DIR$/D03_RelativeLayoutTest_1" />
+            <option value="$PROJECT_DIR$/D03_RelativeLayoutTest_2" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
