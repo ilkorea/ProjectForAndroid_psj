@@ -18,6 +18,9 @@
             <option value="$PROJECT_DIR$/D03_PaddingMarginTest" />
             <option value="$PROJECT_DIR$/D03_RelativeLayoutTest_1" />
             <option value="$PROJECT_DIR$/D03_RelativeLayoutTest_2" />
+            <option value="$PROJECT_DIR$/D04_LaunchModeTest" />
+            <option value="$PROJECT_DIR$/D04_ServiceTest" />
+            <option value="$PROJECT_DIR$/D04_SmsBroadcastReceiver" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
