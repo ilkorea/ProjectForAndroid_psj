@@ -21,6 +21,10 @@
             <option value="$PROJECT_DIR$/D04_LaunchModeTest" />
             <option value="$PROJECT_DIR$/D04_ServiceTest" />
             <option value="$PROJECT_DIR$/D04_SmsBroadcastReceiver" />
+            <option value="$PROJECT_DIR$/D05_CameraTest" />
+            <option value="$PROJECT_DIR$/D05_HandlerTest" />
+            <option value="$PROJECT_DIR$/D05_PermissionModelTest" />
+            <option value="$PROJECT_DIR$/D05_SharedPreferencesTest" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

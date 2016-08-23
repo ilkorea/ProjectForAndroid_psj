@@ -5,7 +5,7 @@ android {
     buildToolsVersion "24.0.1"
 
     defaultConfig {
-        applicationId "kr.mindwing.d03_relativelayout_2"
+        applicationId "kr.mindwing.d05_handlertest"
         minSdkVersion 16
         targetSdkVersion 24
         versionCode 1
@@ -28,5 +28,6 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile "com.android.support:appcompat-v7:${support_lib_version}"
+    compile "com.android.support.constraint:constraint-layout:${constraint_layout_version}"
     testCompile 'junit:junit:4.12'
 }

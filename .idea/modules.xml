@@ -14,6 +14,10 @@
       <module fileurl="file://$PROJECT_DIR$/D04_LaunchModeTest/D04_LaunchModeTest.iml" filepath="$PROJECT_DIR$/D04_LaunchModeTest/D04_LaunchModeTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/D04_ServiceTest/D04_ServiceTest.iml" filepath="$PROJECT_DIR$/D04_ServiceTest/D04_ServiceTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/D04_SmsBroadcastReceiver/D04_SmsBroadcastReceiver.iml" filepath="$PROJECT_DIR$/D04_SmsBroadcastReceiver/D04_SmsBroadcastReceiver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D05_CameraTest/D05_CameraTest.iml" filepath="$PROJECT_DIR$/D05_CameraTest/D05_CameraTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D05_HandlerTest/D05_HandlerTest.iml" filepath="$PROJECT_DIR$/D05_HandlerTest/D05_HandlerTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D05_PermissionModelTest/D05_PermissionModelTest.iml" filepath="$PROJECT_DIR$/D05_PermissionModelTest/D05_PermissionModelTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D05_SharedPreferencesTest/D05_SharedPreferencesTest.iml" filepath="$PROJECT_DIR$/D05_SharedPreferencesTest/D05_SharedPreferencesTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Project_for_Android_02.iml" filepath="$PROJECT_DIR$/Project_for_Android_02.iml" />
     </modules>
   </component>
