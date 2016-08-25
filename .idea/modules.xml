@@ -18,6 +18,9 @@
       <module fileurl="file://$PROJECT_DIR$/D05_HandlerTest/D05_HandlerTest.iml" filepath="$PROJECT_DIR$/D05_HandlerTest/D05_HandlerTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/D05_PermissionModelTest/D05_PermissionModelTest.iml" filepath="$PROJECT_DIR$/D05_PermissionModelTest/D05_PermissionModelTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/D05_SharedPreferencesTest/D05_SharedPreferencesTest.iml" filepath="$PROJECT_DIR$/D05_SharedPreferencesTest/D05_SharedPreferencesTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D06_ActionBarTest/D06_ActionBarTest.iml" filepath="$PROJECT_DIR$/D06_ActionBarTest/D06_ActionBarTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D06_SnackbarTest/D06_SnackbarTest.iml" filepath="$PROJECT_DIR$/D06_SnackbarTest/D06_SnackbarTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/D06_ToolbarFabTest/D06_ToolbarFabTest.iml" filepath="$PROJECT_DIR$/D06_ToolbarFabTest/D06_ToolbarFabTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/Project_for_Android_02.iml" filepath="$PROJECT_DIR$/Project_for_Android_02.iml" />
     </modules>
   </component>

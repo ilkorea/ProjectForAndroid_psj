@@ -25,6 +25,9 @@
             <option value="$PROJECT_DIR$/D05_HandlerTest" />
             <option value="$PROJECT_DIR$/D05_PermissionModelTest" />
             <option value="$PROJECT_DIR$/D05_SharedPreferencesTest" />
+            <option value="$PROJECT_DIR$/D06_ActionBarTest" />
+            <option value="$PROJECT_DIR$/D06_SnackbarTest" />
+            <option value="$PROJECT_DIR$/D06_ToolbarFabTest" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
