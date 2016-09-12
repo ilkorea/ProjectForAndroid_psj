@@ -13,7 +13,7 @@ public class LoginActivity extends AppCompatActivity {
 
         findViewById(R.id. sign_in_button ).setOnClickListener(v->{
             startActivity( new Intent( this, MainActivity. class ));
-                finish();
+            finish();
         });
     }
 }

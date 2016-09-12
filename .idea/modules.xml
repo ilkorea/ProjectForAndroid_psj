@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ProjectForAndroid.iml" filepath="$PROJECT_DIR$/ProjectForAndroid.iml" />
-      <module fileurl="file://$PROJECT_DIR$/d00_fastground/d00_fastground.iml" filepath="$PROJECT_DIR$/d00_fastground/d00_fastground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d00_fastground/d00_Fastground.iml" filepath="$PROJECT_DIR$/d00_fastground/d00_Fastground.iml" />
       <module fileurl="file://$PROJECT_DIR$/D09_MyGAllery/d09_mygallery.iml" filepath="$PROJECT_DIR$/D09_MyGAllery/d09_mygallery.iml" />
       <module fileurl="file://$PROJECT_DIR$/D10_Fastground/d10_Fastground.iml" filepath="$PROJECT_DIR$/D10_Fastground/d10_Fastground.iml" />
     </modules>
