@@ -1,1 +1,8 @@
-include ':D01_HelloWorld', ':D02_IntentTest', ':D02_ActivityJumpTest', ':D02_LinearLayoutTest', ':D03_PaddingMarginTest', ':D03_LinearLayoutTest_weight', ':D03_RelativeLayoutTest_1', ':D03_RelativeLayoutTest_2', ':D03_ConstraintLayoutTest', ':D04_LaunchModeTest', ':D04_SmsBroadcastReceiver', ':D04_ServiceTest', ':D04_ServiceTest', ':D05_SharedPreferencesTest', ':D05_HandlerTest', ':D05_PermissionModelTest', ':D05_CameraTest', ':D06_SnackbarTest', ':D06_ActionBarTest', ':D06_ToolbarFabTest'
+include ':d10_alertdialog'
+//include ':D01_HelloWorld', ':D02_IntentTest', ':D02_ActivityJumpTest', ':D02_LinearLayoutTest',
+// ':D03_PaddingMarginTest', ':D03_LinearLayoutTest_weight', ':D03_RelativeLayoutTest_1',
+// ':D03_RelativeLayoutTest_2', ':D03_ConstraintLayoutTest', ':D04_LaunchModeTest',
+// ':D04_SmsBroadcastReceiver', ':D04_ServiceTest', ':D04_ServiceTest', ':D05_SharedPreferencesTest',
+// ':D05_HandlerTest', ':D05_PermissionModelTest', ':D05_CameraTest', ':D06_SnackbarTest',
+// ':D06_ActionBarTest', ':D06_ToolbarFabTest',
+include 'd09_asynctasktest', 'd09_mygallery','d10_Fastground'

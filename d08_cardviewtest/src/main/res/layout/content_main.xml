@@ -11,6 +11,28 @@
     tools:context="com.soondori.log.d08_cardviewtest.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-        android:text="Hello World!" />
+    <TextView
+        android:id= "@+id/tvElevation"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:layout_alignParentTop= "true"
+        android:background= "#ff0"
+        android:elevation= "16dp"
+        android:text= "Elevation"
+        android:textSize= "50sp" />
+
+    <android.support.v7.widget.CardView
+        android:id= "@+id/cardview"
+        android:layout_width= "match_parent"
+        android:layout_height= "match_parent"
+        android:layout_below= "@id/tvElevation"
+        android:layout_margin= "16dp"
+        app:cardElevation= "8dp" >
+
+    <ImageView
+        android:layout_width= "match_parent"
+        android:layout_height= "match_parent"
+        android:src= "@mipmap/ic_launcher" />
+    </android.support.v7.widget.CardView>
+
 </RelativeLayout>

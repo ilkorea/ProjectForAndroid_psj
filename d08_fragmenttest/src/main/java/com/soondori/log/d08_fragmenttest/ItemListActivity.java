@@ -102,6 +102,7 @@ public class ItemListActivity extends AppCompatActivity {
                         fragment.setArguments(arguments);
                         getSupportFragmentManager().beginTransaction()
                                 .replace(R.id.item_detail_container, fragment)
+                                //.addToBackStack(null)   //todo 추가한 내용
                                 .commit();
                     } else {
                         Context context = v.getContext();

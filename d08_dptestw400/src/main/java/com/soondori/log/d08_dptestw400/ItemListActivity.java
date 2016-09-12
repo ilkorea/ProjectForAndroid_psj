@@ -2,6 +2,7 @@ package com.soondori.log.d08_dptestw400;
 
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.Point;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
@@ -9,9 +10,11 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.view.Display;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.TextView;
 
 
@@ -64,7 +67,44 @@ public class ItemListActivity extends AppCompatActivity {
             // activity should be in two-pane mode.
             mTwoPane = true;
         }
+
+        setTitle();
     }
+
+    public void setTitle() {
+        Display display = ((WindowManager) getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
+        Point deviceSize = new Point();
+        display.getSize(deviceSize);
+
+        float scale = getResources().getDisplayMetrics().density;
+        int dpi = getResources().getDisplayMetrics().densityDpi;
+//        int width = getResources().getDisplayMetrics().widthPixels;
+//        int height = getResources().getDisplayMetrics().heightPixels;
+
+        String dpiStr;
+        if (dpi <= 120) {
+            dpiStr = "ldpi";
+        } else if (dpi <= 160) {
+            dpiStr = "mdpi";
+        } else if (dpi <= 240) {
+            dpiStr = "hdpi";
+        } else if (dpi <= 320) {
+            dpiStr = "xhdpi";
+        } else if (dpi <= 480) {
+            dpiStr = "xxhdpi";
+        } else if (dpi <= 640) {
+            dpiStr = "xxxhdpi";
+        } else {
+            dpiStr = "(UNKNOWN)";
+        }
+
+        setTitle(String. format( "[%sx%s]px %sx -> [%sx%s]dp",
+                deviceSize.x, deviceSize.y , scale, (int)(deviceSize.x / scale) ,
+                (int) (deviceSize. y / scale)));
+
+
+    }
+
 
     private void setupRecyclerView(@NonNull RecyclerView recyclerView) {
         recyclerView.setAdapter(new SimpleItemRecyclerViewAdapter(DummyContent.ITEMS));
@@ -102,6 +142,7 @@ public class ItemListActivity extends AppCompatActivity {
                         fragment.setArguments(arguments);
                         getSupportFragmentManager().beginTransaction()
                                 .replace(R.id.item_detail_container, fragment)
+                                .addToBackStack(null)
                                 .commit();
                     } else {
                         Context context = v.getContext();
