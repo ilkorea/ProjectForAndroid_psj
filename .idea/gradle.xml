@@ -9,8 +9,28 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/D01_HelloWorld" />
+            <option value="$PROJECT_DIR$/D02_ActivityJumpTest" />
+            <option value="$PROJECT_DIR$/D02_IntentTest" />
+            <option value="$PROJECT_DIR$/D02_LinearLayoutTest" />
+            <option value="$PROJECT_DIR$/D03_ConstraintLayoutTest" />
+            <option value="$PROJECT_DIR$/D03_LinearLayoutTest_weight" />
+            <option value="$PROJECT_DIR$/D03_PaddingMarginTest" />
+            <option value="$PROJECT_DIR$/D03_RelativeLayoutTest_1" />
+            <option value="$PROJECT_DIR$/D03_RelativeLayoutTest_2" />
+            <option value="$PROJECT_DIR$/D04_LaunchModeTest" />
+            <option value="$PROJECT_DIR$/D04_ServiceTest" />
+            <option value="$PROJECT_DIR$/D04_SmsBroadcastReceiver" />
+            <option value="$PROJECT_DIR$/D05_CameraTest" />
+            <option value="$PROJECT_DIR$/D05_HandlerTest" />
+            <option value="$PROJECT_DIR$/D05_PermissionModelTest" />
+            <option value="$PROJECT_DIR$/D05_SharedPreferencesTest" />
+            <option value="$PROJECT_DIR$/D06_ActionBarTest" />
+            <option value="$PROJECT_DIR$/D06_SnackbarTest" />
+            <option value="$PROJECT_DIR$/D06_ToolbarFabTest" />
             <option value="$PROJECT_DIR$/D09_MyGAllery" />
             <option value="$PROJECT_DIR$/D10_Fastground" />
+            <option value="$PROJECT_DIR$/d00_fastground" />
             <option value="$PROJECT_DIR$/d09_asynctasktest" />
             <option value="$PROJECT_DIR$/d10_alertdialog" />
           </set>
