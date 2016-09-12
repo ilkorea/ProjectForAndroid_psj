@@ -11,7 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/D09_MyGAllery" />
             <option value="$PROJECT_DIR$/D10_Fastground" />
-            <option value="$PROJECT_DIR$/LoginActivity" />
+            <option value="$PROJECT_DIR$/d00_fastground" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

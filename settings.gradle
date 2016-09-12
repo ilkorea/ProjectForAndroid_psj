@@ -4,4 +4,4 @@
 //        ':D04_SmsBroadcastReceiver', ':D04_ServiceTest', ':D04_ServiceTest', ':D05_SharedPreferencesTest',
 //        ':D05_HandlerTest', ':D05_PermissionModelTest', ':D05_CameraTest', ':D06_SnackbarTest',
 //        ':D06_ActionBarTest', ':D06_ToolbarFabTest'
-include 'd09_mygallery', 'd10_Fastground', ':LoginActivity'
+include 'd09_mygallery', 'd10_Fastground', 'd00_fastground'
