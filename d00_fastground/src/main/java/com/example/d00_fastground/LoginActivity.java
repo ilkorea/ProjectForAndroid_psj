@@ -12,9 +12,9 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
 
-        findViewById(R.id.sign_in_button).setOnClickListener(v ->
-        {
+        findViewById(R.id.sign_in_button).setOnClickListener(v ->{
             startActivity(new Intent(this, MainActivity.class));
+            finish();
         });
     }
 }
