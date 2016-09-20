@@ -1,0 +1,53 @@
+apply plugin: 'com.android.application'
+apply plugin: 'me.tatarka.retrolambda'
+
+android {
+    compileSdkVersion 24
+    buildToolsVersion "${build_tools_version}"
+
+    defaultConfig {
+        applicationId "log.soondori.d11_firebase"
+        minSdkVersion 16
+        targetSdkVersion 24
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:24.2.1'
+    testCompile 'junit:junit:4.12'
+
+    // Google
+    compile "com.google.android.gms:play-services-auth:${gms_firebase_version}"
+    // constraintlayout
+    // Firebase (https://firebase.google.com/support/releases)
+    // Firebase (https://firebase.google.com/docs/android/setup#available_libraries)
+    compile "com.google.firebase:firebase-auth:${gms_firebase_version}"
+    // Firebase UI (https://github.com/firebase/FirebaseUIAndroid/releases)
+    compile "com.firebaseui:firebase-ui-database:${firebase_ui_version}"
+    compile "com.android.support:design:${support_lib_version}"
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    compile 'com.android.support.constraint:constraint-layout:1.0.0-alpha8'
+    compile 'com.android.support:recyclerview-v7:24.2.0'
+    compile 'com.android.support:recyclerview-v7:24.2.0'
+}
+
+apply plugin: 'com.google.gms.google-services'

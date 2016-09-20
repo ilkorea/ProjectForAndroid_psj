@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/d00_fastground/d00_Fastground.iml" filepath="$PROJECT_DIR$/d00_fastground/d00_Fastground.iml" />
       <module fileurl="file://$PROJECT_DIR$/D09_MyGAllery/d09_mygallery.iml" filepath="$PROJECT_DIR$/D09_MyGAllery/d09_mygallery.iml" />
       <module fileurl="file://$PROJECT_DIR$/D10_Fastground/d10_Fastground.iml" filepath="$PROJECT_DIR$/D10_Fastground/d10_Fastground.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d11_firebase/d11_firebase.iml" filepath="$PROJECT_DIR$/d11_firebase/d11_firebase.iml" />
     </modules>
   </component>
 </project>
