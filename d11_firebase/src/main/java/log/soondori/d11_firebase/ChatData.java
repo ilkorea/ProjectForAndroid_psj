@@ -11,12 +11,19 @@ public class ChatData {
     // 대화
     private String chat;
 
+    private  boolean isImageChat;
+
     public ChatData () {
     }
 
     public ChatData (String _chat) {
+        this (_chat , false );
+    }
+
+    public ChatData (String _chat, boolean _isImageChat) {
         name = CloudUtils.getUserName();
         chat = _chat;
+        isImageChat = _isImageChat;
     }
 
     public String getName () {
@@ -25,5 +32,10 @@ public class ChatData {
 
     public String getChat () {
         return chat;
+    }
+
+    public boolean getIsImageChat () {
+
+        return isImageChat;
     }
 }

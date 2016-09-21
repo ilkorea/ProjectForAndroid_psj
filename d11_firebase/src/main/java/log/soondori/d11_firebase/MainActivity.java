@@ -87,7 +87,13 @@ public class MainActivity extends AppCompatActivity {
 
     private void jumpToChatting() {
         Intent jumpToChatting = new Intent(this, ChattingActivity.class);
+        String message = getIntent().getStringExtra(MyFMService.NOTI_MESSAGE);
+        if (message != null ) {
+            jumpToChatting.putExtra(MyFMService.NOTI_MESSAGE, message);
+        }
+
         startActivity(jumpToChatting);
+        finish();
     }
 
     private void firebaseAuthWithGoogle(GoogleSignInAccount acct) {

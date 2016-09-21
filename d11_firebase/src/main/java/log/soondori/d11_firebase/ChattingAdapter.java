@@ -1,11 +1,16 @@
 package log.soondori.d11_firebase;
 
+import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
+import android.view.View;
+
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
+
+import java.io.File;
 
 /**
  * Created by Log on 2016-09-20.
@@ -56,5 +61,19 @@ public class ChattingAdapter extends FirebaseRecyclerAdapter<ChatData, ChatViewH
         viewHolder.chatData = chatData;
         viewHolder.creator.setText(chatData.getName());
         viewHolder.chat.setText(chatData.getChat());
+
+        if (chatData.getIsImageChat()) {
+            File imageFile = new File(CloudUtils.getChatImageDir() , chatData.getChat());
+            if (imageFile.exists()) {
+                viewHolder.image .setImageDrawable(Drawable.createFromPath(
+                        imageFile.getAbsolutePath()));
+            } else {
+                viewHolder.image .setImageResource(R.color. colorPrimary );
+                CloudUtils.fetchImage(chatData , viewHolder.image );
+            }
+            viewHolder.image .setVisibility(View. VISIBLE );
+        } else {
+            viewHolder.image .setVisibility(View. GONE );
+        }
     }
 }
