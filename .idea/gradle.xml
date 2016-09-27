@@ -12,6 +12,7 @@
             <option value="$PROJECT_DIR$/D10_Fastground" />
             <option value="$PROJECT_DIR$/d00_fastground" />
             <option value="$PROJECT_DIR$/d11_firebase" />
+            <option value="$PROJECT_DIR$/d13_buildvariantstest" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

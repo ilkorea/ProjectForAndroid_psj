@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/D09_MyGAllery/d09_mygallery.iml" filepath="$PROJECT_DIR$/D09_MyGAllery/d09_mygallery.iml" />
       <module fileurl="file://$PROJECT_DIR$/D10_Fastground/d10_Fastground.iml" filepath="$PROJECT_DIR$/D10_Fastground/d10_Fastground.iml" />
       <module fileurl="file://$PROJECT_DIR$/d11_firebase/d11_firebase.iml" filepath="$PROJECT_DIR$/d11_firebase/d11_firebase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/d13_buildvariantstest/d13_buildvariantstest.iml" filepath="$PROJECT_DIR$/d13_buildvariantstest/d13_buildvariantstest.iml" />
     </modules>
   </component>
 </project>
